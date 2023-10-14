@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NETFLIX STRTHGS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
+
+
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Prevent horizontal scrollbars */
+        }
+
+        .image-container {
+            position:relative;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto; /* Maintain image aspect ratio */
+        }
+
+        .overlay {
+            position: absolute;
+            top: 50%; /* Center vertically */
+            left:15%; /* Center horizontally */
+            transform: translate(-50%, -50%); /* Center the overlay */
+            text-align: center;
+             /* Center text within overlay */
+        }
+
+        .text {
+            color:ghostwhite;
+            font-size: 50px;
+            font-style:italic;
+        }
+
+        .button {
+            background-color:red;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            margin: 10px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .who {
+            color: beige;
+        }
+        .text12 {
+            color:azure;
+            position:absolute;
+            top: 50%; /* Center vertically */
+            left:15%; /* Center horizontally */
+            transform: translate(-3%, -3%); /* Center the overlay */
+            text-align:left;
+            font-size: 16px;
+        }
+    </style>
+</head>
+  <body>
+    <nav class="navbar bg-danger" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a style="font: size 22px; ;"class="navbar-brand" href="#">
+            <img class="fs-1" src="n logo.png" alt="Logo" width="60" height="40" class="d-inline-block align-text-top"> Netflix
+          </a>
+          <ul class="nav justify-content-end">
+            <p style="color: aliceblue;size: 18px; font-size: 22px;">UNLIMITED TV SHOWS AND MOVIES&nbsp;&nbsp;</p>
+            <button type="button" class="btn btn-outline-warning">JOIN US</button>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <button type="button" class="btn btn-outline-light">SIGN IN</button>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </ul>
+        </div>
+      </nav>
+
+
+
+
+      <div class="image-container">
+        <img src="image.jpg" alt="Your Image">
+        <div class="overlay">
+            <h1 class="text">&nbsp;&nbsp;&nbsp;&nbsp;STRANGER THINGS</h1>
+            <p class="who">2016 | U/A 16+ | 4 Seasons | Sci-Fi TV</p>
+            <p class="text12">In the 1980s-set series "Stranger Things," a group of&nbsp; friends encounters supernatural forces and a girl with psychokinetic abilities, all while trying to unravel the mysteries of their small town.
+               <br>
+               <br><strong>Starring: </strong> <span style="color: red;">Winona Ryder,David Harbour,Millie Bobby Brown</span>
+<strong>Creators: </strong> <span style="color: red;">The Duffer Brothers</span>
+</p><a class="button" href="#">WATCH NOW</a><br><br><br><br><br><br><br><br><br><br>
+            </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
+</body>
+</html>
